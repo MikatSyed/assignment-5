@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cooking Master</title>
+
+    <!-- CSS Link-->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap Link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+
+<section>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand navbar-link" href="#" id="navbar-link">Hungry Monster</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link navbar-link navbar-color" href="#" id="nav-space">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navbar-link navbar-color" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navbar-link navbar-color" href="#">Recipes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navbar-link navbar-color" href="#">Blog</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+</section>
+
+
+
+
+    <div id="text-box" class="mx-auto" style="width: 500px;">
+        <div class="input-group mt-3 ">
+            <input id="searchItem" type="text" class="form-control" placeholder="Search for Meal..."
+                aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button onclick="calledBy()" class="btn btn-danger" type="button" id="button-addon2">Search</button>
+        </div>
+    </div>
+    <div id="mealElement">
+
+    </div>
+    <section class="elements">
+        <div class="row row-cols-1 row-cols-md-3 g-4 text-center">
+            <div class="col h-100">
+                <div id="meals">
+
+                </div>
+            </div>
+    </section>
+
+    <!-- Java Script Link-->
+    <script src="app.js"></script>
+
+</body>
+
+</html>
